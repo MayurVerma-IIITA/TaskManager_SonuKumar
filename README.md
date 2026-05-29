@@ -9,8 +9,8 @@ The app is split into two deployable projects:
 
 ## Live Links
 
-- Frontend: ___
-- Backend: ___
+- Frontend: https://client-liart-nine-79.vercel.app
+- Backend: https://task-manager-api-production-1765.up.railway.app
 
 ## Screenshots
 
