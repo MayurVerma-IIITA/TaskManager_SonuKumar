@@ -14,7 +14,13 @@ The app is split into two deployable projects:
 
 ## Screenshots
 
-Add screenshots here after local testing or deployment.
+### Login
+
+![Login page](screenshots/login.png)
+
+### Dashboard
+
+![Kanban dashboard](screenshots/dashboard.png)
 
 ## Features
 

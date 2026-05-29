@@ -37,7 +37,7 @@ const KanbanBoard = ({ tasksByStage, loading, error, updateTask, deleteTask, onE
       </div>
 
       <DragDropContext onDragEnd={handleDragEnd}>
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-3 sm:-mx-6 sm:px-6 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:px-0 md:pb-0">
           {columns.map((column) => (
             <KanbanColumn
               key={column.id}

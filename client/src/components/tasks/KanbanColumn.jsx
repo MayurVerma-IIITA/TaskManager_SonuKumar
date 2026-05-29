@@ -15,7 +15,7 @@ const SkeletonCards = () => (
 
 const KanbanColumn = ({ column, tasks, loading, onEditTask, onDeleteTask }) => {
   return (
-    <div className={`flex min-h-[28rem] flex-col rounded-xl border p-3 ${column.className}`}>
+    <div className={`flex min-h-[28rem] w-[19rem] shrink-0 flex-col rounded-xl border p-3 sm:w-[21rem] md:w-auto md:min-w-0 ${column.className}`}>
       <div className="mb-3 flex items-center justify-between px-1">
         <h3 className="text-sm font-bold uppercase tracking-wide text-slate-700">{column.title}</h3>
         <span className="rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-slate-600 shadow-sm">
